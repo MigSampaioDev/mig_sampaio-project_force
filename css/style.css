@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Intel+One+Mono:ital,wght@0,300..700;1,300..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+body
+{
+    margin: 0;
+    font-family: "Merriweather", serif;
+    position: relative;
+    height: auto;
+}
+
+.background
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://cdn.mos.cms.futurecdn.net/HuGGeENt6kGyixe3hT9tnY.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    filter: blur(2px);
+}
+
+.intro
+{
+    font-family: "Intel One Mono", monospace;
+    font-size: xxx-large;
+}
+
+.card_intro
+{
+    background-color: rgb(46, 95, 170);
+    width: 1000px;
+    height: auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px #a09898;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+}
+
+.card_intro img
+{
+    width: 45%;
+    height: auto;
+    border-radius: 25px;
+
+}
+
+.card_questions
+{
+    background-color: rgb(51, 167, 99);
+    width: 1000px;
+    height: auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px #a09898;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+}
+
+.questions
+{
+    font-size: large;
+    font-weight: bold;
+}
+
+.textbox
+{
+    padding: 5px;
+    border-radius: 20px;
+    width: 700px;
+}
+
+.traitor_1
+{
+    display: none;
+    color: crimson;
+}
+
+.troca:hover .normal
+{
+    display: none;
+}
+
+.troca:hover .traitor_1
+{
+    display: inline;
+}
+
+.calc_button
+{
+    padding: 15px;
+    border-radius: 25px;
+    background-color: cadetblue;
+    color: white;
+}
