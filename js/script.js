@@ -49,5 +49,5 @@ function calcular() {
         result = "VERDE";
     }
 
-    alert("Seu sabre é:", result);
+    alert(`Seu sabre é ${result}`);
 }
